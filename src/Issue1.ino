@@ -1,8 +1,8 @@
 const int sensorPin = 34;
 
-int sec_llindar = 2500;
-int humit_llindar = 1500;
-int submergit_llindar = 800;
+int sec_max = 300;
+int humit_max = 1500;
+int submergit_max = 4095;
 
 void setup() {
   Serial.begin(115200);
@@ -18,14 +18,11 @@ void loop() {
   Serial.print(value);
   Serial.print("  -->  Estat: ");
 
-  if (value >= sec_llindar) {
+  if (value <= sec_max) {
     Serial.println("Sec");
   }
-  else if (value >= humit_llindar) {
+  else if (value <= humit_max) {
     Serial.println("Terra humida");
-  }
-  else if (value >= submergit_llindar) {
-    Serial.println("Humitat molt alta");
   }
   else {
     Serial.println("Submergit en aigua");
