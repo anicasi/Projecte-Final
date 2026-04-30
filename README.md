@@ -1,7 +1,7 @@
 # Projecte-Final
 
-**IOT XXX**
-Explicació/Reptes - 
+**IOT Granja GreenFarm**
+Explicació/Reptes - Gestió ineficient de recursos hídrics
 
-Objectiu - 
+Objectiu - Optimitzar consum d’aigua mediant l'avis de quan es té que regar els camps (LED)
 
