@@ -22,15 +22,18 @@ void loop() {
 
   if (value <= sec_max) {
     Serial.println("Sec");
-    digitalWrite(ledPin, LOW);
   }
   else if (value <= humit_max) {
     Serial.println("Terra humida");
-    digitalWrite(ledPin, HIGH);
   }
   else {
     Serial.println("Submergit en aigua");
+  }
+
+  if (value > 100) {
     digitalWrite(ledPin, HIGH);
+  } else {
+    digitalWrite(ledPin, LOW);
   }
 
   delay(3000);
