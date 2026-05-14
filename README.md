@@ -30,4 +30,33 @@ Explicació tècnica
 
 Consulta l’explicació tècnica.
 Estructura del repositori
-Code
+Code:
+projecte_iot/
+ ├── README.md
+ ├── src/
+ │    └── main.ino
+ └── doc/
+      └── document_tecnic.pdf
+Tauler Kanban (GitHub Project)
+
+    🟥 To Do
+
+    🟨 Doing
+
+    🟩 Done
+
+Inclou seguiment real del projecte, tasques i Issues.
+Veure el projecte Kanban.
+Control del projecte
+
+    Registre d’errors i incidències
+
+    Justificació de decisions tècniques
+
+    Evolució documentada
+
+Consulta el control del projecte.
+Issues
+
+Cada Issue documenta una tasca concreta, el problema detectat (si n’hi ha), la solució aplicada i l’estat final.
+Veure el llistat d’Issues.
