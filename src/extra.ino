@@ -1,4 +1,6 @@
 //Al detectar que el terra esta sec, la bomba d'aigua regara automaticament la terra
+
+
 const int sensorPin = 34;
 const int ledPin = 2;
 const int bombaPin = 17;
